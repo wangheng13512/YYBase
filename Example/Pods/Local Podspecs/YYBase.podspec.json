@@ -1,0 +1,22 @@
+{
+  "name": "YYBase",
+  "version": "0.1.0",
+  "summary": "A short description of YYBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/王恒/YYBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "王恒": "1066026709@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/王恒/YYBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YYBase/Classes/**/*"
+}
