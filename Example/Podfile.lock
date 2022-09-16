@@ -1,16 +1,43 @@
 PODS:
-  - YYBase (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - YYBase (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
-  - YYBase (from `../`)
+  - YYBase (from `/Users/wangheng/Desktop/cocoapods/YYBase`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   YYBase:
-    :path: "../"
+    :path: "/Users/wangheng/Desktop/cocoapods/YYBase"
 
 SPEC CHECKSUMS:
-  YYBase: 46faf01af03c8f7ec3e4d745e064f2fa6553c483
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  YYBase: 4dd960f810a0b1356c2a8fd67bab2ea11e48dfb0
 
-PODFILE CHECKSUM: c5a5e316bcc8852d3d15ae3e9be83514dde416c0
+PODFILE CHECKSUM: cb96773736c4076923f48543285ba12e24380dea
 
 COCOAPODS: 1.11.3

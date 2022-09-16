@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'YYBase_Example' do
-  pod 'YYBase', :path => '../'
+  pod 'YYBase', :path => '/Users/wangheng/Desktop/cocoapods/YYBase'
 
   target 'YYBase_Tests' do
     inherit! :search_paths
@@ -11,3 +11,4 @@ target 'YYBase_Example' do
     
   end
 end
+
